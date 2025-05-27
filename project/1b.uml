@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:java="http://www.eclipse.org/papyrus/JAVA/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_DSv_kDCwEfC8-aCxPaufpw" name="project">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_DTrMoDCwEfC8-aCxPaufpw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="__Hp6UDMvEfCLqM5ikryQgA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_DK7igDMwEfCLqM5ikryQgA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_R6wKwDCwEfC8-aCxPaufpw" name="Staff"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_U3awMDCwEfC8-aCxPaufpw" name="Website Portal">
+      <ownedTemplateSignature xmi:type="uml:TemplateSignature" xmi:id="_17ye0DR7EfCtdZiHprN8Eg"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_nsPhIDCwEfC8-aCxPaufpw" name="Login">
+        <generalization xmi:type="uml:Generalization" xmi:id="_MoF7IDMdEfCLqM5ikryQgA" general="_YBt3EDCyEfC8-aCxPaufpw"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_OnoxADMdEfCLqM5ikryQgA" general="_c0lwMDCyEfC8-aCxPaufpw"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_uRsakDRzEfCtdZiHprN8Eg" general="_mGSfYDRzEfCtdZiHprN8Eg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_uriH0DR8EfCtdZiHprN8Eg" general="_oDh5EDR8EfCtdZiHprN8Eg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="__tpvkDR9EfCtdZiHprN8Eg" general="_wAU7EDR9EfCtdZiHprN8Eg"/>
+        <include xmi:type="uml:Include" xmi:id="_GqYX0DCyEfC8-aCxPaufpw" addition="_0aac4DCwEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_0aac4DCwEfC8-aCxPaufpw" name="Register employee account"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_YBt3EDCyEfC8-aCxPaufpw" name="Bread list">
+        <generalization xmi:type="uml:Generalization" xmi:id="_S0UM0DMdEfCLqM5ikryQgA" general="_4iA84DDbEfC8-aCxPaufpw"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_XoYYwDMdEfCLqM5ikryQgA" general="_5B5W0DDbEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_c0lwMDCyEfC8-aCxPaufpw" name="Ingredient list">
+        <generalization xmi:type="uml:Generalization" xmi:id="_bZoc0DMdEfCLqM5ikryQgA" general="_5dvlUDDbEfC8-aCxPaufpw"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_d6tScDMdEfCLqM5ikryQgA" general="_58L00DDbEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_4iA84DDbEfC8-aCxPaufpw" name="Create bread type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_YvBMgDMkEfCLqM5ikryQgA" general="_0C6CYDDdEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_5B5W0DDbEfC8-aCxPaufpw" name="Modify bread type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_VOaF0DR_EfCtdZiHprN8Eg" general="_GZxz4DR_EfCtdZiHprN8Eg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_WDy1sDR_EfCtdZiHprN8Eg" general="_LUJcIDR_EfCtdZiHprN8Eg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_5dvlUDDbEfC8-aCxPaufpw" name="Modify ingredient type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ybPMYDR_EfCtdZiHprN8Eg" general="_XQhukDR_EfCtdZiHprN8Eg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_zBFrcDR_EfCtdZiHprN8Eg" general="_qXjCwDR_EfCtdZiHprN8Eg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_58L00DDbEfC8-aCxPaufpw" name="Create ingredient type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_NYPggDMvEfCLqM5ikryQgA" general="_0C6CYDDdEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_0C6CYDDdEfC8-aCxPaufpw" name="Confirmation of changes">
+        <include xmi:type="uml:Include" xmi:id="_oYd3YDJEEfCZgqcnLMMSbA" addition="_M8b5sDI8EfCZgqcnLMMSbA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_M8b5sDI8EfCZgqcnLMMSbA" name="Storing changes">
+        <include xmi:type="uml:Include" xmi:id="_nPrqYDJEEfCZgqcnLMMSbA" addition="_jueU0DJBEfCZgqcnLMMSbA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_jueU0DJBEfCZgqcnLMMSbA" name="Creating Modifications Database"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_FtySADP6EfCtdZiHprN8Eg" name="Enter Staff Portal">
+        <generalization xmi:type="uml:Generalization" xmi:id="_IB3NcDP6EfCtdZiHprN8Eg" general="_nsPhIDCwEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Zv4jYDRzEfCtdZiHprN8Eg" name="Make Payment">
+        <generalization xmi:type="uml:Generalization" xmi:id="_st0awDR4EfCtdZiHprN8Eg" general="_BVpFQDR3EfCtdZiHprN8Eg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_zuLfIDR4EfCtdZiHprN8Eg" general="_fpBPEDR1EfCtdZiHprN8Eg"/>
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Ycc2gDR8EfCtdZiHprN8Eg" name="ExtensionPoint3"/>
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Y7h_MDR8EfCtdZiHprN8Eg" name="ExtensionPoint4"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_mGSfYDRzEfCtdZiHprN8Eg" name="View Order Summary">
+        <generalization xmi:type="uml:Generalization" xmi:id="_NTfpQDR1EfCtdZiHprN8Eg" general="_Ib0vsDR1EfCtdZiHprN8Eg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_iJOlMDR5EfCtdZiHprN8Eg" general="_htoOUDR5EfCtdZiHprN8Eg"/>
+        <include xmi:type="uml:Include" xmi:id="_ppTg4DR4EfCtdZiHprN8Eg" addition="_BVpFQDR3EfCtdZiHprN8Eg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Ib0vsDR1EfCtdZiHprN8Eg" name="Send notification when order is ready"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_cBr8ADR1EfCtdZiHprN8Eg" name="Receive notifications when order is ready">
+        <extend xmi:type="uml:Extend" xmi:id="_EqAZADR3EfCtdZiHprN8Eg" extendedCase="_BVpFQDR3EfCtdZiHprN8Eg" extensionLocation="_EqEqcDR3EfCtdZiHprN8Eg"/>
+        <include xmi:type="uml:Include" xmi:id="_rFuRADR3EfCtdZiHprN8Eg" addition="_nUtdgDR3EfCtdZiHprN8Eg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_fpBPEDR1EfCtdZiHprN8Eg" name="Add points to account">
+        <include xmi:type="uml:Include" xmi:id="_xbLpIDR1EfCtdZiHprN8Eg" addition="_p79egDR1EfCtdZiHprN8Eg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_p79egDR1EfCtdZiHprN8Eg" name="Calculate points earned"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_BVpFQDR3EfCtdZiHprN8Eg" name="Generate Order Receipt">
+        <generalization xmi:type="uml:Generalization" xmi:id="_XSJ4gDR6EfCtdZiHprN8Eg" general="_JF2x4DR6EfCtdZiHprN8Eg"/>
+        <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EqEqcDR3EfCtdZiHprN8Eg" name="ExtensionPoint1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_nUtdgDR3EfCtdZiHprN8Eg" name="Enable app notification"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_S537kDR4EfCtdZiHprN8Eg" name="Submit Order">
+        <generalization xmi:type="uml:Generalization" xmi:id="_AajOoDR6EfCtdZiHprN8Eg" general="_45_AMDR5EfCtdZiHprN8Eg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_htoOUDR5EfCtdZiHprN8Eg" name="View Order details "/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_45_AMDR5EfCtdZiHprN8Eg" name="Calculate total price">
+        <generalization xmi:type="uml:Generalization" xmi:id="_-qdxEDR5EfCtdZiHprN8Eg" general="_Zv4jYDRzEfCtdZiHprN8Eg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_JF2x4DR6EfCtdZiHprN8Eg" name="Record Order Price">
+        <include xmi:type="uml:Include" xmi:id="_GSF0UDR7EfCtdZiHprN8Eg" addition="_ZhLU0DR6EfCtdZiHprN8Eg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ZhLU0DR6EfCtdZiHprN8Eg" name="Creating Sales Database"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="__ow6cDR7EfCtdZiHprN8Eg" name="Make Credit Card Payment">
+        <extend xmi:type="uml:Extend" xmi:id="_YcbBUDR8EfCtdZiHprN8Eg" extendedCase="_Zv4jYDRzEfCtdZiHprN8Eg" extensionLocation="_Ycc2gDR8EfCtdZiHprN8Eg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_FLKzEDR8EfCtdZiHprN8Eg" name="Make Cash Payment">
+        <extend xmi:type="uml:Extend" xmi:id="_Y7hYIDR8EfCtdZiHprN8Eg" extendedCase="_Zv4jYDRzEfCtdZiHprN8Eg" extensionLocation="_Y7h_MDR8EfCtdZiHprN8Eg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_oDh5EDR8EfCtdZiHprN8Eg" name="Create new Promotions"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_wAU7EDR9EfCtdZiHprN8Eg" name="Verify Item Storage "/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_GZxz4DR_EfCtdZiHprN8Eg" name="Edit bread type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_wAExgDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_LUJcIDR_EfCtdZiHprN8Eg" name="Delete bread type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_xygYcDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_XQhukDR_EfCtdZiHprN8Eg" name="Edit ingredient type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_4dJEcDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_qXjCwDR_EfCtdZiHprN8Eg" name="Delete ingredient type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_45jToDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cDNgIDMvEfCLqM5ikryQgA" name="Staff_portal">
+      <packagedElement xmi:type="uml:Class" xmi:id="_wyfLkDMvEfCLqM5ikryQgA" name="bread">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jC6tcDRREfCtdZiHprN8Eg" name="bName" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_kBSaMDRREfCtdZiHprN8Eg" name="bPrice" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_3H35UDrPEfCYctysBMm6Ow" name="configurationStatus"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_4PJqcDrPEfCYctysBMm6Ow" name="confirmationStatus"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xmI2EDMvEfCLqM5ikryQgA" name="ingredients">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jbmTMDRREfCtdZiHprN8Eg" name="iName" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_kXO1ADRREfCtdZiHprN8Eg" name="iPrice" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_mKp6cDRREfCtdZiHprN8Eg" name="configurationStatus"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_1g8XwDrPEfCYctysBMm6Ow" name="confirmationStatus"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yW0sIDMvEfCLqM5ikryQgA" name="AccountCreation" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Pmp2IDReEfCtdZiHprN8Eg" name="accountID" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_KOHWEDRcEfCtdZiHprN8Eg" name="firstName" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_TPkvgDRcEfCtdZiHprN8Eg" name="lastName" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_uSJCIDRVEfCtdZiHprN8Eg" name="staffEmail" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_g6wHEDRREfCtdZiHprN8Eg" name="username" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_iW-NcDRREfCtdZiHprN8Eg" name="password" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_lAGL0DRREfCtdZiHprN8Eg" name="accountCreationStatus" concurrency="concurrent"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TNM6cDedEfCd-Nun6NGJbw" name="login">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_lLiIQDedEfCd-Nun6NGJbw" name="checkUN" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_sNUwADedEfCd-Nun6NGJbw" name="checkPW" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_regiMDedEfCd-Nun6NGJbw" name="loginStatus"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_JMw6UDP6EfCtdZiHprN8Eg" memberEnd="_JNHfoDP6EfCtdZiHprN8Eg _JNIGsDP6EfCtdZiHprN8Eg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JM1y0DP6EfCtdZiHprN8Eg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JM2Z4DP6EfCtdZiHprN8Eg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_JNHfoDP6EfCtdZiHprN8Eg" name="enter staff portal" type="_FtySADP6EfCtdZiHprN8Eg" association="_JMw6UDP6EfCtdZiHprN8Eg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_JNIGsDP6EfCtdZiHprN8Eg" name="staff" type="_R6wKwDCwEfC8-aCxPaufpw" association="_JMw6UDP6EfCtdZiHprN8Eg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_yFFzsDRzEfCtdZiHprN8Eg" name="Customer"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IlkmQDMwEfCLqM5ikryQgA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IlrT8DMwEfCLqM5ikryQgA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_pKJ3gDqeEfCXfflJhNVx0Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pKUPkDqeEfCXfflJhNVx0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <java:JavaClass xmi:id="_pANd0DP6EfCtdZiHprN8Eg" base_Classifier="_yW0sIDMvEfCLqM5ikryQgA"/>
+  <java:JavaClass xmi:id="_cLIWQDRREfCtdZiHprN8Eg" base_Classifier="_wyfLkDMvEfCLqM5ikryQgA"/>
+  <java:JavaClass xmi:id="_c90XcDRREfCtdZiHprN8Eg" base_Classifier="_xmI2EDMvEfCLqM5ikryQgA"/>
+  <java:JavaProperty xmi:id="_yqGdsDRREfCtdZiHprN8Eg" base_Property="_g6wHEDRREfCtdZiHprN8Eg"/>
+  <java:JavaProperty xmi:id="_CiLCQDRVEfCtdZiHprN8Eg" base_Property="_iW-NcDRREfCtdZiHprN8Eg"/>
+  <java:JavaMethod xmi:id="_hqP4EDRWEfCtdZiHprN8Eg" base_Operation="_lAGL0DRREfCtdZiHprN8Eg"/>
+  <java:JavaProperty xmi:id="_WmIboDRcEfCtdZiHprN8Eg" base_Property="_TPkvgDRcEfCtdZiHprN8Eg"/>
+  <java:JavaProperty xmi:id="_XfnBUDRcEfCtdZiHprN8Eg" base_Property="_KOHWEDRcEfCtdZiHprN8Eg"/>
+  <java:JavaProperty xmi:id="_dA6GsDRcEfCtdZiHprN8Eg" base_Property="_uSJCIDRVEfCtdZiHprN8Eg"/>
+  <java:JavaProperty xmi:id="_da2l0DReEfCtdZiHprN8Eg" base_Property="_Pmp2IDReEfCtdZiHprN8Eg"/>
+  <java:JavaClass xmi:id="_hXgdADedEfCd-Nun6NGJbw" base_Classifier="_TNM6cDedEfCd-Nun6NGJbw"/>
+  <java:JavaProperty xmi:id="_B03akDqbEfCXfflJhNVx0Q" base_Property="_sNUwADedEfCd-Nun6NGJbw"/>
+  <java:JavaProperty xmi:id="_DqWVgDqbEfCXfflJhNVx0Q" base_Property="_lLiIQDedEfCd-Nun6NGJbw"/>
+  <java:JavaMethod xmi:id="_E-0OEDqbEfCXfflJhNVx0Q" base_Operation="_regiMDedEfCd-Nun6NGJbw"/>
+  <java:JavaProperty xmi:id="_mUBX4DqeEfCXfflJhNVx0Q" base_Property="_jC6tcDRREfCtdZiHprN8Eg"/>
+  <java:JavaProperty xmi:id="_0MRhIDqeEfCXfflJhNVx0Q" base_Property="_kBSaMDRREfCtdZiHprN8Eg"/>
+  <java:JavaProperty xmi:id="_eviycDqhEfCXfflJhNVx0Q" base_Property="_kXO1ADRREfCtdZiHprN8Eg"/>
+  <java:JavaProperty xmi:id="_iloTMDqhEfCXfflJhNVx0Q" base_Property="_jbmTMDRREfCtdZiHprN8Eg"/>
+  <java:JavaMethod xmi:id="_1hApMDrPEfCYctysBMm6Ow" base_Operation="_1g8XwDrPEfCYctysBMm6Ow"/>
+  <java:JavaMethod xmi:id="_6Mzp8DrPEfCYctysBMm6Ow" base_Operation="_4PJqcDrPEfCYctysBMm6Ow"/>
+  <java:JavaMethod xmi:id="_62QPkDrPEfCYctysBMm6Ow" base_Operation="_3H35UDrPEfCYctysBMm6Ow"/>
+  <java:JavaMethod xmi:id="_7k_k4DrPEfCYctysBMm6Ow" base_Operation="_mKp6cDRREfCtdZiHprN8Eg"/>
+</xmi:XMI>
