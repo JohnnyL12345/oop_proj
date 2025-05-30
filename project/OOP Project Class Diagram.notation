@@ -1329,17 +1329,6 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OpRvwDMdEfCLqM5ikryQgA" id="(1.0,0.5)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OpRvwTMdEfCLqM5ikryQgA" id="(0.14285714285714285,0.15)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_Xoz2kDMdEfCLqM5ikryQgA" type="Generalization_Edge" source="_YB2Z8DCyEfC8-aCxPaufpw" target="_5CEV8DDbEfC8-aCxPaufpw">
-      <children xmi:type="notation:DecorationNode" xmi:id="_Xo0doDMdEfCLqM5ikryQgA" type="Generalization_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FHnp4DP6EfCtdZiHprN8Eg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xo0doTMdEfCLqM5ikryQgA" x="-1" y="-18"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_Xoz2kTMdEfCLqM5ikryQgA"/>
-      <element xmi:type="uml:Generalization" href="OOP%20Project%20Class%20Diagram.uml#_XoYYwDMdEfCLqM5ikryQgA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Xoz2kjMdEfCLqM5ikryQgA" points="[790, -255, -643984, -643984]$[910, -225, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xpa6kDMdEfCLqM5ikryQgA" id="(1.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xpa6kTMdEfCLqM5ikryQgA" id="(0.0,0.5)"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_baIMEDMdEfCLqM5ikryQgA" type="Generalization_Edge" source="_c0u6IDCyEfC8-aCxPaufpw" target="_5eAEADDbEfC8-aCxPaufpw">
       <children xmi:type="notation:DecorationNode" xmi:id="_baIMEzMdEfCLqM5ikryQgA" type="Generalization_StereotypeLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ezOO0DMdEfCLqM5ikryQgA" name="IS_UPDATED_POSITION" booleanValue="true"/>
@@ -2257,6 +2246,19 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y0Mioj1EEfCs4-IFNUVDCg" points="[924, -380, -643984, -643984]$[820, -308, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y474sD1EEfCs4-IFNUVDCg" id="(0.02666666666666667,0.6666666666666666)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y474sT1EEfCs4-IFNUVDCg" id="(0.8571428571428571,0.15)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_Y0mV0D1FEfCs4-IFNUVDCg" type="Include_Edge" source="_5CEV8DDbEfC8-aCxPaufpw" target="_YB2Z8DCyEfC8-aCxPaufpw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Y0m84D1FEfCs4-IFNUVDCg" type="Include_KeywordLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Y0m84T1FEfCs4-IFNUVDCg" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Y0m84j1FEfCs4-IFNUVDCg" type="Include_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Y0m84z1FEfCs4-IFNUVDCg" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Y0mV0T1FEfCs4-IFNUVDCg"/>
+      <element xmi:type="uml:Include" href="OOP%20Project%20Class%20Diagram.uml#_YyYvUD1FEfCs4-IFNUVDCg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y0mV0j1FEfCs4-IFNUVDCg" points="[924, -300, -643984, -643984]$[820, -253, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y48DQD1FEfCs4-IFNUVDCg" id="(0.025974025974025976,0.3333333333333333)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y48qUD1FEfCs4-IFNUVDCg" id="(0.8571428571428571,0.8375)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
