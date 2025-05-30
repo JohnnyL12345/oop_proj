@@ -132,7 +132,7 @@
         <ownedOperation xmi:type="uml:Operation" xmi:id="_mKp6cDRREfCtdZiHprN8Eg" name="configurationStatus"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_1g8XwDrPEfCYctysBMm6Ow" name="confirmationStatus"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_yW0sIDMvEfCLqM5ikryQgA" name="AccountCreation" visibility="public">
+      <packagedElement xmi:type="uml:Class" xmi:id="_yW0sIDMvEfCLqM5ikryQgA" name="StaffAccCreation" visibility="public">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_Pmp2IDReEfCtdZiHprN8Eg" name="accountID" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedAttribute>
@@ -153,11 +153,11 @@
         </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_lAGL0DRREfCtdZiHprN8Eg" name="accountCreationStatus" concurrency="concurrent"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_TNM6cDedEfCd-Nun6NGJbw" name="login">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_lLiIQDedEfCd-Nun6NGJbw" name="checkUN" visibility="private">
+      <packagedElement xmi:type="uml:Class" xmi:id="_TNM6cDedEfCd-Nun6NGJbw" name="StaffLogin">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_lLiIQDedEfCd-Nun6NGJbw" name="enterUN" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_sNUwADedEfCd-Nun6NGJbw" name="checkPW" visibility="private">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_sNUwADedEfCd-Nun6NGJbw" name="enterPW" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_regiMDedEfCd-Nun6NGJbw" name="loginStatus"/>
@@ -171,6 +171,8 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_JNIGsDP6EfCtdZiHprN8Eg" name="staff" type="_R6wKwDCwEfC8-aCxPaufpw" association="_JMw6UDP6EfCtdZiHprN8Eg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_yFFzsDRzEfCtdZiHprN8Eg" name="Customer"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lHZ5UDrWEfC2Tf09kIDn7w" name="Data"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ol1IADrWEfC2Tf09kIDn7w" name="Customer_portal"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IlkmQDMwEfCLqM5ikryQgA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IlrT8DMwEfCLqM5ikryQgA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
