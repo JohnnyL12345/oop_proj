@@ -55,7 +55,6 @@
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_Zv4jYDRzEfCtdZiHprN8Eg" name="Make Payment">
         <generalization xmi:type="uml:Generalization" xmi:id="_st0awDR4EfCtdZiHprN8Eg" general="_BVpFQDR3EfCtdZiHprN8Eg"/>
-        <generalization xmi:type="uml:Generalization" xmi:id="_zuLfIDR4EfCtdZiHprN8Eg" general="_fpBPEDR1EfCtdZiHprN8Eg"/>
         <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Ycc2gDR8EfCtdZiHprN8Eg" name="ExtensionPoint3"/>
         <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Y7h_MDR8EfCtdZiHprN8Eg" name="ExtensionPoint4"/>
       </packagedElement>
@@ -71,6 +70,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_fpBPEDR1EfCtdZiHprN8Eg" name="Add points to account">
         <include xmi:type="uml:Include" xmi:id="_xbLpIDR1EfCtdZiHprN8Eg" addition="_p79egDR1EfCtdZiHprN8Eg"/>
+        <include xmi:type="uml:Include" xmi:id="_V2LJkD0IEfC7B83-3rm3_g" addition="_Zv4jYDRzEfCtdZiHprN8Eg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_p79egDR1EfCtdZiHprN8Eg" name="Calculate points earned"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_BVpFQDR3EfCtdZiHprN8Eg" name="Generate Order Receipt">
