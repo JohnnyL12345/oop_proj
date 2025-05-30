@@ -29,22 +29,16 @@
         <generalization xmi:type="uml:Generalization" xmi:id="_bZoc0DMdEfCLqM5ikryQgA" general="_5dvlUDDbEfC8-aCxPaufpw"/>
         <generalization xmi:type="uml:Generalization" xmi:id="_d6tScDMdEfCLqM5ikryQgA" general="_58L00DDbEfC8-aCxPaufpw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_4iA84DDbEfC8-aCxPaufpw" name="Create bread type">
-        <generalization xmi:type="uml:Generalization" xmi:id="_YvBMgDMkEfCLqM5ikryQgA" general="_0C6CYDDdEfC8-aCxPaufpw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_5B5W0DDbEfC8-aCxPaufpw" name="Modify bread type">
-        <generalization xmi:type="uml:Generalization" xmi:id="_VOaF0DR_EfCtdZiHprN8Eg" general="_GZxz4DR_EfCtdZiHprN8Eg"/>
-        <generalization xmi:type="uml:Generalization" xmi:id="_WDy1sDR_EfCtdZiHprN8Eg" general="_LUJcIDR_EfCtdZiHprN8Eg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_5dvlUDDbEfC8-aCxPaufpw" name="Modify ingredient type">
-        <generalization xmi:type="uml:Generalization" xmi:id="_ybPMYDR_EfCtdZiHprN8Eg" general="_XQhukDR_EfCtdZiHprN8Eg"/>
-        <generalization xmi:type="uml:Generalization" xmi:id="_zBFrcDR_EfCtdZiHprN8Eg" general="_qXjCwDR_EfCtdZiHprN8Eg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_58L00DDbEfC8-aCxPaufpw" name="Create ingredient type">
-        <generalization xmi:type="uml:Generalization" xmi:id="_NYPggDMvEfCLqM5ikryQgA" general="_0C6CYDDdEfC8-aCxPaufpw"/>
-      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_4iA84DDbEfC8-aCxPaufpw" name="Create bread type"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_5B5W0DDbEfC8-aCxPaufpw" name="Modify bread type"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_5dvlUDDbEfC8-aCxPaufpw" name="Modify ingredient type"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_58L00DDbEfC8-aCxPaufpw" name="Create ingredient type"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_0C6CYDDdEfC8-aCxPaufpw" name="Confirmation of changes">
         <include xmi:type="uml:Include" xmi:id="_oYd3YDJEEfCZgqcnLMMSbA" addition="_M8b5sDI8EfCZgqcnLMMSbA"/>
+        <include xmi:type="uml:Include" xmi:id="_3kmuED0_EfCs4-IFNUVDCg" addition="_5dvlUDDbEfC8-aCxPaufpw"/>
+        <include xmi:type="uml:Include" xmi:id="_47wuQD0_EfCs4-IFNUVDCg" addition="_58L00DDbEfC8-aCxPaufpw"/>
+        <include xmi:type="uml:Include" xmi:id="_NjDiYD1AEfCs4-IFNUVDCg" addition="_5B5W0DDbEfC8-aCxPaufpw"/>
+        <include xmi:type="uml:Include" xmi:id="_OLolUD1AEfCs4-IFNUVDCg" addition="_4iA84DDbEfC8-aCxPaufpw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_M8b5sDI8EfCZgqcnLMMSbA" name="Storing changes">
         <include xmi:type="uml:Include" xmi:id="_nPrqYDJEEfCZgqcnLMMSbA" addition="_jueU0DJBEfCZgqcnLMMSbA"/>
@@ -101,18 +95,6 @@
         <include xmi:type="uml:Include" xmi:id="_4DtHsDz5EfCYceV9k4lyhw" addition="_nsPhIDCwEfC8-aCxPaufpw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_wAU7EDR9EfCtdZiHprN8Eg" name="Verify Item Storage "/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_GZxz4DR_EfCtdZiHprN8Eg" name="Edit bread type">
-        <generalization xmi:type="uml:Generalization" xmi:id="_wAExgDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_LUJcIDR_EfCtdZiHprN8Eg" name="Delete bread type">
-        <generalization xmi:type="uml:Generalization" xmi:id="_xygYcDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_XQhukDR_EfCtdZiHprN8Eg" name="Edit ingredient type">
-        <generalization xmi:type="uml:Generalization" xmi:id="_4dJEcDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_qXjCwDR_EfCtdZiHprN8Eg" name="Delete ingredient type">
-        <generalization xmi:type="uml:Generalization" xmi:id="_45jToDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_FYan8Dh5EfCD48MOqlBtdQ" name="Check Points Shop">
         <generalization xmi:type="uml:Generalization" xmi:id="_FPpRIDljEfCD48MOqlBtdQ" general="_CS9dkDljEfCD48MOqlBtdQ"/>
         <generalization xmi:type="uml:Generalization" xmi:id="_KH6noDljEfCD48MOqlBtdQ" general="_GMTtsDljEfCD48MOqlBtdQ"/>
@@ -331,7 +313,6 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_xzgU8Dz5EfCYceV9k4lyhw" name="register employee account" type="_0aac4DCwEfC8-aCxPaufpw" association="_xzZAMDz5EfCYceV9k4lyhw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_xzg8ADz5EfCYceV9k4lyhw" type="_R6wKwDCwEfC8-aCxPaufpw" association="_xzZAMDz5EfCYceV9k4lyhw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_bbasED0OEfCs4-IFNUVDCg" name="test"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IlkmQDMwEfCLqM5ikryQgA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IlrT8DMwEfCLqM5ikryQgA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
