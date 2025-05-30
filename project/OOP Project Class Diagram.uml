@@ -316,7 +316,7 @@
         <ownedOperation xmi:type="uml:Operation" xmi:id="_lAGL0DRREfCtdZiHprN8Eg" name="AccountCreationStatus" concurrency="concurrent"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_wyfLkDMvEfCLqM5ikryQgA" name="bread">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_jC6tcDRREfCtdZiHprN8Eg" name="Property1"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jC6tcDRREfCtdZiHprN8Eg" name="Property1" visibility="private"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_kBSaMDRREfCtdZiHprN8Eg" name="Property2"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_lsAPkDRREfCtdZiHprN8Eg" name="Operation3"/>
       </packagedElement>
@@ -361,4 +361,5 @@
   <java:JavaProperty xmi:id="_LG4IkDz4EfCYceV9k4lyhw" base_Property="_EnxXIDz4EfCYceV9k4lyhw"/>
   <java:JavaClass xmi:id="_XTaW4Dz4EfCYceV9k4lyhw" base_Classifier="_3qABgDzpEfCYceV9k4lyhw"/>
   <java:JavaClass xmi:id="_Yb8sQDz4EfCYceV9k4lyhw" base_Classifier="_4CZiIDzjEfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_xYpAED0IEfC7B83-3rm3_g" base_Property="_jC6tcDRREfCtdZiHprN8Eg"/>
 </xmi:XMI>
