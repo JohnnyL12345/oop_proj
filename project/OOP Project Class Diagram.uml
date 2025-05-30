@@ -313,6 +313,13 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_xzgU8Dz5EfCYceV9k4lyhw" name="register employee account" type="_0aac4DCwEfC8-aCxPaufpw" association="_xzZAMDz5EfCYceV9k4lyhw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_xzg8ADz5EfCYceV9k4lyhw" type="_R6wKwDCwEfC8-aCxPaufpw" association="_xzZAMDz5EfCYceV9k4lyhw"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ukCQAD1AEfCs4-IFNUVDCg" memberEnd="_ukaqgD1AEfCs4-IFNUVDCg _ukbRkD1AEfCs4-IFNUVDCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ukXnMD1AEfCs4-IFNUVDCg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ukYOQD1AEfCs4-IFNUVDCg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ukaqgD1AEfCs4-IFNUVDCg" name="customer" type="_yFFzsDRzEfCtdZiHprN8Eg" association="_ukCQAD1AEfCs4-IFNUVDCg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ukbRkD1AEfCs4-IFNUVDCg" name="create new account" type="_0af1oDh1EfCD48MOqlBtdQ" association="_ukCQAD1AEfCs4-IFNUVDCg"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IlkmQDMwEfCLqM5ikryQgA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IlrT8DMwEfCLqM5ikryQgA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
