@@ -21,9 +21,7 @@
         <include xmi:type="uml:Include" xmi:id="_GqYX0DCyEfC8-aCxPaufpw" addition="_0aac4DCwEfC8-aCxPaufpw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_0aac4DCwEfC8-aCxPaufpw" name="Register employee account"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_YBt3EDCyEfC8-aCxPaufpw" name="Bread list">
-        <generalization xmi:type="uml:Generalization" xmi:id="_XoYYwDMdEfCLqM5ikryQgA" general="_5B5W0DDbEfC8-aCxPaufpw"/>
-      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_YBt3EDCyEfC8-aCxPaufpw" name="Bread list"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_c0lwMDCyEfC8-aCxPaufpw" name="Ingredient list">
         <generalization xmi:type="uml:Generalization" xmi:id="_bZoc0DMdEfCLqM5ikryQgA" general="_5dvlUDDbEfC8-aCxPaufpw"/>
         <generalization xmi:type="uml:Generalization" xmi:id="_d6tScDMdEfCLqM5ikryQgA" general="_58L00DDbEfC8-aCxPaufpw"/>
@@ -31,7 +29,9 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_4iA84DDbEfC8-aCxPaufpw" name="Create bread type">
         <include xmi:type="uml:Include" xmi:id="_YyU6YD1EEfCs4-IFNUVDCg" addition="_YBt3EDCyEfC8-aCxPaufpw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_5B5W0DDbEfC8-aCxPaufpw" name="Modify bread type"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_5B5W0DDbEfC8-aCxPaufpw" name="Modify bread type">
+        <include xmi:type="uml:Include" xmi:id="_YyYvUD1FEfCs4-IFNUVDCg" addition="_YBt3EDCyEfC8-aCxPaufpw"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_5dvlUDDbEfC8-aCxPaufpw" name="Modify ingredient type"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_58L00DDbEfC8-aCxPaufpw" name="Create ingredient type"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_0C6CYDDdEfC8-aCxPaufpw" name="Confirmation of changes">
