@@ -1307,6 +1307,22 @@
       <element xmi:type="uml:Actor" href="OOP%20Project%20Class%20Diagram.uml#_yFFzsDRzEfCtdZiHprN8Eg"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yFKFITRzEfCtdZiHprN8Eg" x="3480" y="60" width="119" height="112"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_bb2w8D0OEfCs4-IFNUVDCg" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bb_T0D0OEfCs4-IFNUVDCg" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bb_T0T0OEfCs4-IFNUVDCg" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bb_64D0OEfCs4-IFNUVDCg" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bcAh8D0OEfCs4-IFNUVDCg" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bcAh8T0OEfCs4-IFNUVDCg" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bcBJAD0OEfCs4-IFNUVDCg" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bcBwED0OEfCs4-IFNUVDCg" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bcBwET0OEfCs4-IFNUVDCg" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="OOP%20Project%20Class%20Diagram.uml#_bbasED0OEfCs4-IFNUVDCg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bb2w8T0OEfCs4-IFNUVDCg" x="3505" y="302"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_DS8M0TCwEfC8-aCxPaufpw" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_DS8M0jCwEfC8-aCxPaufpw"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_DS8M0zCwEfC8-aCxPaufpw" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
