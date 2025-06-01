@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:java="http://www.eclipse.org/papyrus/JAVA/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <uml:Model xmi:id="_DSv_kDCwEfC8-aCxPaufpw" name="project">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_oCMXAD1pEfCYceV9k4lyhw"/>
     <packageImport xmi:type="uml:PackageImport" xmi:id="_DTrMoDCwEfC8-aCxPaufpw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
@@ -21,25 +22,30 @@
         <include xmi:type="uml:Include" xmi:id="_GqYX0DCyEfC8-aCxPaufpw" addition="_0aac4DCwEfC8-aCxPaufpw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_0aac4DCwEfC8-aCxPaufpw" name="Register employee account"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_YBt3EDCyEfC8-aCxPaufpw" name="Bread list"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_YBt3EDCyEfC8-aCxPaufpw" name="Bread list">
+        <generalization xmi:type="uml:Generalization" xmi:id="_S0UM0DMdEfCLqM5ikryQgA" general="_4iA84DDbEfC8-aCxPaufpw"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_XoYYwDMdEfCLqM5ikryQgA" general="_5B5W0DDbEfC8-aCxPaufpw"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_c0lwMDCyEfC8-aCxPaufpw" name="Ingredient list">
         <generalization xmi:type="uml:Generalization" xmi:id="_bZoc0DMdEfCLqM5ikryQgA" general="_5dvlUDDbEfC8-aCxPaufpw"/>
         <generalization xmi:type="uml:Generalization" xmi:id="_d6tScDMdEfCLqM5ikryQgA" general="_58L00DDbEfC8-aCxPaufpw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_4iA84DDbEfC8-aCxPaufpw" name="Create bread type">
-        <include xmi:type="uml:Include" xmi:id="_YyU6YD1EEfCs4-IFNUVDCg" addition="_YBt3EDCyEfC8-aCxPaufpw"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_YvBMgDMkEfCLqM5ikryQgA" general="_0C6CYDDdEfC8-aCxPaufpw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_5B5W0DDbEfC8-aCxPaufpw" name="Modify bread type">
-        <include xmi:type="uml:Include" xmi:id="_YyYvUD1FEfCs4-IFNUVDCg" addition="_YBt3EDCyEfC8-aCxPaufpw"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_VOaF0DR_EfCtdZiHprN8Eg" general="_GZxz4DR_EfCtdZiHprN8Eg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_WDy1sDR_EfCtdZiHprN8Eg" general="_LUJcIDR_EfCtdZiHprN8Eg"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_5dvlUDDbEfC8-aCxPaufpw" name="Modify ingredient type"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_58L00DDbEfC8-aCxPaufpw" name="Create ingredient type"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_5dvlUDDbEfC8-aCxPaufpw" name="Modify ingredient type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_ybPMYDR_EfCtdZiHprN8Eg" general="_XQhukDR_EfCtdZiHprN8Eg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_zBFrcDR_EfCtdZiHprN8Eg" general="_qXjCwDR_EfCtdZiHprN8Eg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_58L00DDbEfC8-aCxPaufpw" name="Create ingredient type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_NYPggDMvEfCLqM5ikryQgA" general="_0C6CYDDdEfC8-aCxPaufpw"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_0C6CYDDdEfC8-aCxPaufpw" name="Confirmation of changes">
         <include xmi:type="uml:Include" xmi:id="_oYd3YDJEEfCZgqcnLMMSbA" addition="_M8b5sDI8EfCZgqcnLMMSbA"/>
-        <include xmi:type="uml:Include" xmi:id="_3kmuED0_EfCs4-IFNUVDCg" addition="_5dvlUDDbEfC8-aCxPaufpw"/>
-        <include xmi:type="uml:Include" xmi:id="_47wuQD0_EfCs4-IFNUVDCg" addition="_58L00DDbEfC8-aCxPaufpw"/>
-        <include xmi:type="uml:Include" xmi:id="_NjDiYD1AEfCs4-IFNUVDCg" addition="_5B5W0DDbEfC8-aCxPaufpw"/>
-        <include xmi:type="uml:Include" xmi:id="_OLolUD1AEfCs4-IFNUVDCg" addition="_4iA84DDbEfC8-aCxPaufpw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_M8b5sDI8EfCZgqcnLMMSbA" name="Storing changes">
         <include xmi:type="uml:Include" xmi:id="_nPrqYDJEEfCZgqcnLMMSbA" addition="_jueU0DJBEfCZgqcnLMMSbA"/>
@@ -50,6 +56,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_Zv4jYDRzEfCtdZiHprN8Eg" name="Make Payment">
         <generalization xmi:type="uml:Generalization" xmi:id="_st0awDR4EfCtdZiHprN8Eg" general="_BVpFQDR3EfCtdZiHprN8Eg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_zuLfIDR4EfCtdZiHprN8Eg" general="_fpBPEDR1EfCtdZiHprN8Eg"/>
         <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Ycc2gDR8EfCtdZiHprN8Eg" name="ExtensionPoint3"/>
         <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Y7h_MDR8EfCtdZiHprN8Eg" name="ExtensionPoint4"/>
       </packagedElement>
@@ -65,7 +72,6 @@
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_fpBPEDR1EfCtdZiHprN8Eg" name="Add points to account">
         <include xmi:type="uml:Include" xmi:id="_xbLpIDR1EfCtdZiHprN8Eg" addition="_p79egDR1EfCtdZiHprN8Eg"/>
-        <include xmi:type="uml:Include" xmi:id="_V2LJkD0IEfC7B83-3rm3_g" addition="_Zv4jYDRzEfCtdZiHprN8Eg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_p79egDR1EfCtdZiHprN8Eg" name="Calculate points earned"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_BVpFQDR3EfCtdZiHprN8Eg" name="Generate Order Receipt">
@@ -96,6 +102,18 @@
         <include xmi:type="uml:Include" xmi:id="_4DtHsDz5EfCYceV9k4lyhw" addition="_nsPhIDCwEfC8-aCxPaufpw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_wAU7EDR9EfCtdZiHprN8Eg" name="Verify Item Storage "/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_GZxz4DR_EfCtdZiHprN8Eg" name="Edit bread type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_wAExgDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_LUJcIDR_EfCtdZiHprN8Eg" name="Delete bread type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_xygYcDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_XQhukDR_EfCtdZiHprN8Eg" name="Edit ingredient type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_4dJEcDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_qXjCwDR_EfCtdZiHprN8Eg" name="Delete ingredient type">
+        <generalization xmi:type="uml:Generalization" xmi:id="_45jToDR_EfCtdZiHprN8Eg" general="_0C6CYDDdEfC8-aCxPaufpw"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_FYan8Dh5EfCD48MOqlBtdQ" name="Check Points Shop">
         <generalization xmi:type="uml:Generalization" xmi:id="_FPpRIDljEfCD48MOqlBtdQ" general="_CS9dkDljEfCD48MOqlBtdQ"/>
         <generalization xmi:type="uml:Generalization" xmi:id="_KH6noDljEfCD48MOqlBtdQ" general="_GMTtsDljEfCD48MOqlBtdQ"/>
@@ -186,7 +204,7 @@
         <include xmi:type="uml:Include" xmi:id="_mDoroDljEfCD48MOqlBtdQ" addition="_hnURUDljEfCD48MOqlBtdQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_GMTtsDljEfCD48MOqlBtdQ" name="Exit Points Shop"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_QIqpIDljEfCD48MOqlBtdQ" name="Register Adress"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_QIqpIDljEfCD48MOqlBtdQ" name="Register Address"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_hnURUDljEfCD48MOqlBtdQ" name="Check Point Balance">
         <include xmi:type="uml:Include" xmi:id="_oj1-kDljEfCD48MOqlBtdQ" addition="_p79egDR1EfCtdZiHprN8Eg"/>
       </packagedElement>
@@ -227,85 +245,87 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_yFFzsDRzEfCtdZiHprN8Eg" name="Customer"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_sHeBMDzjEfCYceV9k4lyhw" name="Website">
-      <packagedElement xmi:type="uml:Class" xmi:id="_4CZiIDzjEfCYceV9k4lyhw" name="registerAccount">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_XynygDzkEfCYceV9k4lyhw" name="username">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="__GDVoDzkEfCYceV9k4lyhw" name="password" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_CJ9LgDzlEfCYceV9k4lyhw" name="firstName">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Ce9yMDzlEfCYceV9k4lyhw" name="lastName">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_CzKgkDzlEfCYceV9k4lyhw" name="address">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_mkyw4DzlEfCYceV9k4lyhw" name="phoneNumber">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_ksWckD1pEfCYceV9k4lyhw">
+        <body>MODEL</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_r1ykcD1pEfCYceV9k4lyhw">
+        <body>VIEW</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_uFNCUD1pEfCYceV9k4lyhw">
+        <body>CONTROLLER</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gK_xQD1pEfCYceV9k4lyhw" name="OrderController">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Rp9aoD1yEfCYceV9k4lyhw" name="OrderCreationStatus"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gv_UsD1pEfCYceV9k4lyhw" name="InfoController">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Njn3YD1yEfCYceV9k4lyhw" name="AccountCreationStatus"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jDC8cD1pEfCYceV9k4lyhw" name="BreadList"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hpG4kD1qEfCYceV9k4lyhw" name="IngredientList"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_nYnZED1qEfCYceV9k4lyhw" name="CustomerInformation">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_IMNyAD1rEfCYceV9k4lyhw" name="CardNumber" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_IEnG4Dz3EfCYceV9k4lyhw" name="card">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_19UJ4D1wEfCYceV9k4lyhw" name="ContactNumber" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CYeDAD1xEfCYceV9k4lyhw" name="Name" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_H7cjYD1xEfCYceV9k4lyhw" name="Address" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_3qABgDzpEfCYceV9k4lyhw" name="createOrder">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_9J6m0DzpEfCYceV9k4lyhw" name="selectBread">
+      <packagedElement xmi:type="uml:Class" xmi:id="_zrxMwD1qEfCYceV9k4lyhw" name="SavedOrders"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oqm6gD1sEfCYceV9k4lyhw" name="Login">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_MqtB0D2zEfCYceV9k4lyhw" name="enterUsername" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_CS-LUDzqEfCYceV9k4lyhw" name="editBread">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_XrICUD2zEfCYceV9k4lyhw" name="enterPassword" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_FoG7IDzqEfCYceV9k4lyhw" name="addIngredient">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_H4OjoDzqEfCYceV9k4lyhw" name="deleteIngredient">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Vu_fIDzqEfCYceV9k4lyhw" name="saveOrderIntoData">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_EnxXIDz4EfCYceV9k4lyhw" name="addDonation">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_kS0ioD2zEfCYceV9k4lyhw" name="loginStatus" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_-iBP4D2yEfCYceV9k4lyhw" name="Register">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ACmcYD20EfCYceV9k4lyhw" name="enterContact" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_kfHrkDzqEfCYceV9k4lyhw" name="login"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_5Q_sIDz3EfCYceV9k4lyhw" name="Class4"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_xmI2EDMvEfCLqM5ikryQgA" name="ingredients">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_jbmTMDRREfCtdZiHprN8Eg" name="Property1"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_kXO1ADRREfCtdZiHprN8Eg" name="Property2"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_mKp6cDRREfCtdZiHprN8Eg" name="Operation3"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_yW0sIDMvEfCLqM5ikryQgA" name="StaffAccCreation" visibility="public">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Pmp2IDReEfCtdZiHprN8Eg" name="accountID" visibility="private">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_qb8nkD20EfCYceV9k4lyhw" name="enterUsername" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_rFwZkD20EfCYceV9k4lyhw" name="enterPassword" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_0NcW0D20EfCYceV9k4lyhw" name="enterCardNumber" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_KOHWEDRcEfCtdZiHprN8Eg" name="firstName" visibility="private">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_0ic9gD20EfCYceV9k4lyhw" name="enterAddress" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_TPkvgDRcEfCtdZiHprN8Eg" name="lastName" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_uSJCIDRVEfCtdZiHprN8Eg" name="Staff_email_address" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_g6wHEDRREfCtdZiHprN8Eg" name="Username" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_iW-NcDRREfCtdZiHprN8Eg" name="Password" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_lAGL0DRREfCtdZiHprN8Eg" name="AccountCreationStatus" concurrency="concurrent"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_D1tsMD21EfCYceV9k4lyhw" name="accountCreationStatus"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_wyfLkDMvEfCLqM5ikryQgA" name="bread">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_jC6tcDRREfCtdZiHprN8Eg" name="bName" visibility="private">
+      <packagedElement xmi:type="uml:Class" xmi:id="_BXJp8D2zEfCYceV9k4lyhw" name="Order">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Conm8D21EfCYceV9k4lyhw" name="chooseBreadType">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_kBSaMDRREfCtdZiHprN8Eg" name="Property2"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_lsAPkDRREfCtdZiHprN8Eg" name="Operation3"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_OUms8D21EfCYceV9k4lyhw" name="chooseIngredientType">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_vNJr0Dz7EfCYceV9k4lyhw" name="StaffLogin"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1ymMMD2zEfCYceV9k4lyhw" name="LoginController">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_4BtIED2zEfCYceV9k4lyhw" name="verifyUsername" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_5WB2sD2zEfCYceV9k4lyhw" name="verifyPassword" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_d00FED6-EfCYceV9k4lyhw" name="PremiumCustomerController">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ifkkAD6-EfCYceV9k4lyhw" name="subscriptionFee"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_nM1kYD6-EfCYceV9k4lyhw" name="discountedDeliveryFee"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_rakwID6-EfCYceV9k4lyhw" name="specialDeals"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_v353ED6-EfCYceV9k4lyhw" name="Operation4"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_xzZAMDz5EfCYceV9k4lyhw" memberEnd="_xzgU8Dz5EfCYceV9k4lyhw _xzg8ADz5EfCYceV9k4lyhw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xzd4sDz5EfCYceV9k4lyhw" source="org.eclipse.papyrus">
@@ -314,44 +334,43 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_xzgU8Dz5EfCYceV9k4lyhw" name="register employee account" type="_0aac4DCwEfC8-aCxPaufpw" association="_xzZAMDz5EfCYceV9k4lyhw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_xzg8ADz5EfCYceV9k4lyhw" type="_R6wKwDCwEfC8-aCxPaufpw" association="_xzZAMDz5EfCYceV9k4lyhw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_ukCQAD1AEfCs4-IFNUVDCg" memberEnd="_ukaqgD1AEfCs4-IFNUVDCg _ukbRkD1AEfCs4-IFNUVDCg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ukXnMD1AEfCs4-IFNUVDCg" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ukYOQD1AEfCs4-IFNUVDCg" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_ukaqgD1AEfCs4-IFNUVDCg" name="customer" type="_yFFzsDRzEfCtdZiHprN8Eg" association="_ukCQAD1AEfCs4-IFNUVDCg"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_ukbRkD1AEfCs4-IFNUVDCg" name="create new account" type="_0af1oDh1EfCD48MOqlBtdQ" association="_ukCQAD1AEfCs4-IFNUVDCg"/>
-    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IlkmQDMwEfCLqM5ikryQgA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IlrT8DMwEfCLqM5ikryQgA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_RHVs4D6-EfCYceV9k4lyhw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RHwjoD6-EfCYceV9k4lyhw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
-  <java:JavaClass xmi:id="_pANd0DP6EfCtdZiHprN8Eg" base_Classifier="_yW0sIDMvEfCLqM5ikryQgA"/>
-  <java:JavaClass xmi:id="_cLIWQDRREfCtdZiHprN8Eg" base_Classifier="_wyfLkDMvEfCLqM5ikryQgA"/>
-  <java:JavaClass xmi:id="_c90XcDRREfCtdZiHprN8Eg" base_Classifier="_xmI2EDMvEfCLqM5ikryQgA"/>
-  <java:JavaProperty xmi:id="_yqGdsDRREfCtdZiHprN8Eg" base_Property="_g6wHEDRREfCtdZiHprN8Eg"/>
-  <java:JavaProperty xmi:id="_CiLCQDRVEfCtdZiHprN8Eg" base_Property="_iW-NcDRREfCtdZiHprN8Eg"/>
-  <java:JavaMethod xmi:id="_hqP4EDRWEfCtdZiHprN8Eg" base_Operation="_lAGL0DRREfCtdZiHprN8Eg"/>
-  <java:JavaProperty xmi:id="_WmIboDRcEfCtdZiHprN8Eg" base_Property="_TPkvgDRcEfCtdZiHprN8Eg"/>
-  <java:JavaProperty xmi:id="_XfnBUDRcEfCtdZiHprN8Eg" base_Property="_KOHWEDRcEfCtdZiHprN8Eg"/>
-  <java:JavaProperty xmi:id="_dA6GsDRcEfCtdZiHprN8Eg" base_Property="_uSJCIDRVEfCtdZiHprN8Eg"/>
-  <java:JavaProperty xmi:id="_da2l0DReEfCtdZiHprN8Eg" base_Property="_Pmp2IDReEfCtdZiHprN8Eg"/>
-  <java:JavaProperty xmi:id="_zVtUEDzkEfCYceV9k4lyhw" base_Property="_XynygDzkEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_PMra8DzlEfCYceV9k4lyhw" base_Property="__GDVoDzkEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_QoClsDzlEfCYceV9k4lyhw" base_Property="_CJ9LgDzlEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_RmpjADzlEfCYceV9k4lyhw" base_Property="_Ce9yMDzlEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_Srww8DzlEfCYceV9k4lyhw" base_Property="_CzKgkDzlEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_pZqsQDzlEfCYceV9k4lyhw" base_Property="_mkyw4DzlEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_4k4pgDz2EfCYceV9k4lyhw" base_Property="_FoG7IDzqEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_6nn9UDz2EfCYceV9k4lyhw" base_Property="_H4OjoDzqEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_7bUrIDz2EfCYceV9k4lyhw" base_Property="_Vu_fIDzqEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_8Mtr0Dz2EfCYceV9k4lyhw" base_Property="_CS-LUDzqEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_9DPrMDz2EfCYceV9k4lyhw" base_Property="_9J6m0DzpEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_NoKPADz3EfCYceV9k4lyhw" base_Property="_IEnG4Dz3EfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_LG4IkDz4EfCYceV9k4lyhw" base_Property="_EnxXIDz4EfCYceV9k4lyhw"/>
-  <java:JavaClass xmi:id="_XTaW4Dz4EfCYceV9k4lyhw" base_Classifier="_3qABgDzpEfCYceV9k4lyhw"/>
-  <java:JavaClass xmi:id="_Yb8sQDz4EfCYceV9k4lyhw" base_Classifier="_4CZiIDzjEfCYceV9k4lyhw"/>
-  <java:JavaProperty xmi:id="_xYpAED0IEfC7B83-3rm3_g" base_Property="_jC6tcDRREfCtdZiHprN8Eg"/>
+  <java:JavaClass xmi:id="_94NLkD1qEfCYceV9k4lyhw" base_Classifier="_nYnZED1qEfCYceV9k4lyhw"/>
+  <java:JavaClass xmi:id="__MtgYD1qEfCYceV9k4lyhw" base_Classifier="_hpG4kD1qEfCYceV9k4lyhw"/>
+  <java:JavaClass xmi:id="_ANSzoD1rEfCYceV9k4lyhw" base_Classifier="_jDC8cD1pEfCYceV9k4lyhw"/>
+  <java:JavaClass xmi:id="_BVbgYD1rEfCYceV9k4lyhw" base_Classifier="_zrxMwD1qEfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_987eED1rEfCYceV9k4lyhw" base_Property="_IMNyAD1rEfCYceV9k4lyhw"/>
+  <java:JavaClass xmi:id="_XYD0oD1sEfCYceV9k4lyhw" base_Classifier="_gK_xQD1pEfCYceV9k4lyhw"/>
+  <java:JavaClass xmi:id="_iWGPgD1sEfCYceV9k4lyhw" base_Classifier="_gv_UsD1pEfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="__UmpYD1wEfCYceV9k4lyhw" base_Property="_19UJ4D1wEfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_EZaAAD1xEfCYceV9k4lyhw" base_Property="_CYeDAD1xEfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_MXpB4D1xEfCYceV9k4lyhw" base_Property="_H7cjYD1xEfCYceV9k4lyhw"/>
+  <java:JavaMethod xmi:id="_Q02-oD1yEfCYceV9k4lyhw" base_Operation="_Njn3YD1yEfCYceV9k4lyhw"/>
+  <java:JavaMethod xmi:id="_VdTwcD1yEfCYceV9k4lyhw" base_Operation="_Rp9aoD1yEfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_SwTuID2zEfCYceV9k4lyhw" base_Property="_MqtB0D2zEfCYceV9k4lyhw"/>
+  <java:JavaClass xmi:id="_Tt6l4D2zEfCYceV9k4lyhw" base_Classifier="_oqm6gD1sEfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_aNhGkD2zEfCYceV9k4lyhw" base_Property="_XrICUD2zEfCYceV9k4lyhw"/>
+  <java:JavaMethod xmi:id="_qZfl8D2zEfCYceV9k4lyhw" base_Operation="_kS0ioD2zEfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_4BzOsD2zEfCYceV9k4lyhw" base_Property="_4BtIED2zEfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_5WIkYD2zEfCYceV9k4lyhw" base_Property="_5WB2sD2zEfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_qcD8UD20EfCYceV9k4lyhw" base_Property="_qb8nkD20EfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_rF2gMD20EfCYceV9k4lyhw" base_Property="_rFwZkD20EfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_zaiTMD20EfCYceV9k4lyhw" base_Property="_ACmcYD20EfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_0NgBMj20EfCYceV9k4lyhw" base_Property="_0NcW0D20EfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_0ign4D20EfCYceV9k4lyhw" base_Property="_0ic9gD20EfCYceV9k4lyhw"/>
+  <java:JavaMethod xmi:id="_G9v0ID21EfCYceV9k4lyhw" base_Operation="_D1tsMD21EfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_YafX0D21EfCYceV9k4lyhw" base_Property="_Conm8D21EfCYceV9k4lyhw"/>
+  <java:JavaProperty xmi:id="_ZPPOgD21EfCYceV9k4lyhw" base_Property="_OUms8D21EfCYceV9k4lyhw"/>
 </xmi:XMI>
